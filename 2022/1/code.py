@@ -14,6 +14,12 @@ for elf in elves:
     # print(total_elf_calories)
     calories.append(total_elf_calories)
 
-print(sorted(calories))
+# print(sorted(calories))
 
 print(max(calories))
+
+top_3 = sorted(calories)[-3:]
+
+# print(top_3)
+
+print(sum(top_3))
